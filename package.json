@@ -7,7 +7,8 @@
   "jsdelivr": "build/geometric.min.js",
   "module": "dist/esm/index.js",
   "scripts": {
-    "pretest": "rm -rf build && mkdir build && rollup -c --banner \"$(preamble)\"",
+    "build": "tsc && rollup -c --banner \"$(preamble)\"",
+    "pretest": "rm -rf build && mkdir build && rollup -c",
     "test": "tape 'test/**/*-test.js'",
     "prepublishOnly": "npm run test && uglifyjs build/geometric.js -c -m -o build/geometric.min.js",
     "postpublish": "zip -j build/geometric.zip -- LICENSE README.md build/geometric.js build/geometric.min.js"
