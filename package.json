@@ -5,7 +5,7 @@
   "main": "build/geometric.js",
   "unpkg": "build/geometric.min.js",
   "jsdelivr": "build/geometric.min.js",
-  "module": "dist/es/index.js",
+  "module": "dist/esm/index.js",
   "scripts": {
     "pretest": "rm -rf build && mkdir build && rollup -c --banner \"$(preamble)\"",
     "test": "tape 'test/**/*-test.js'",
