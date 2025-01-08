@@ -5,7 +5,7 @@
   "main": "build/geometric.js",
   "unpkg": "build/geometric.min.js",
   "jsdelivr": "build/geometric.min.js",
-  "module": "index",
+  "module": "dist/es/index.js",
   "scripts": {
     "pretest": "rm -rf build && mkdir build && rollup -c --banner \"$(preamble)\"",
     "test": "tape 'test/**/*-test.js'",
@@ -15,11 +15,13 @@
   "devDependencies": {
     "@babel/core": "^7.4.5",
     "@babel/preset-env": "^7.4.5",
+    "@types/node": "^22.10.5",
     "babel": "^6.23.0",
     "package-preamble": "0.1",
     "rollup": "^0.62.0",
     "rollup-plugin-babel": "^4.3.2",
     "tape": "4",
+    "typescript": "^5.7.2",
     "uglify-js": "^2.8.11"
   },
   "repository": {

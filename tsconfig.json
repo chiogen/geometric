@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        "target": "ES2022",
+        "lib": [
+            "ES2022"
+        ],
+        "module": "ES2022",
+        "outDir": "dist/esm",
+        "sourceMap": true,
+        "declaration": true,
+        /* Bundler mode */
+        "moduleResolution": "bundler",
+        "isolatedModules": true,
+        /* Linting */
+        "noFallthroughCasesInSwitch": true,
+        "strictNullChecks": true,
+    },
+    "include": [
+        "src/**/*.ts"
+    ],
+    "exclude": [        
+        "node_modules"
+    ]
+}
