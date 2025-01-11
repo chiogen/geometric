@@ -1,5 +1,5 @@
 {
-  "name": "geometric",
+  "name": "@chiogen/geometric",
   "version": "2.5.5",
   "description": "A JavaScript library with geometric functions.",
   "main": "build/geometric.js",
@@ -27,19 +27,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/HarryStevens/geometric.git"
+    "url": "git+https://github.com/chiogen/geometric.git"
   },
   "keywords": [
     "geometry"
   ],
   "author": {
+    "name": "chiogen",
+    "email": "iwashier@gmail.com"
+  },
+  "forkedFrom": {
     "name": "Harry Stevens",
     "email": "harryjosephstevens@gmail.com",
     "url": "http://harryjstevens.com/"
   },
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/HarryStevens/geometric/issues"
-  },
-  "homepage": "https://github.com/HarryStevens/geometric#readme"
+  "license": "MIT"
 }

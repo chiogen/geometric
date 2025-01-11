@@ -5,6 +5,15 @@ A JavaScript library for doing geometry.
 [<img src="https://raw.githubusercontent.com/HarryStevens/geometric/master/img/length-thumb.png" />](https://blocks.roadtolarissa.com/HarryStevens/c4eddfb97535e8e01643325cb43175ff)
 [<img src="https://raw.githubusercontent.com/HarryStevens/geometric/master/img/centroid-thumb.png" />](https://blocks.roadtolarissa.com/HarryStevens/37287b23b345f394f8276dc87a9c2bc6)
 
+## Disclaimer
+
+This is forked from [Harry Stevens](https://github.com/HarryStevens/geometric).
+
+Changes made with the fork:
+- Translated sources to typescript
+- Some performance optimizations
+- Replacement of (some) legacy code
+
 ## Installation
 
 ### Web browser
